@@ -40,7 +40,7 @@ router.put ('/signup', (req, res) => {
     newdata=[]
     usersdata.map (user => {
         if (user.username===req.body.oldname) {
-         newdata.push ({'username': req.body.newname, 'password': user.password, 'country': user.country})
+         newdata.push ({'username': req.body.newname, 'password': user.password, 'country': user.country, 'travells': user.travells})
         }
     else {
         newdata.push(user)
@@ -76,6 +76,12 @@ router.get ('/users', (req,res) =>  {
     let list=[]
     usersdata.forEach (user => list.push(user.username))
     res.jsonp (list)
+})
+
+router.get ('/statistics', (req, res) => {
+    const list=[]
+    usersdata.forEach(user => list.push({'username': user.username, 'usercountry': user.country, 'viscountries': user.travells}))
+    res.jsonp(list)
 })
 /*
 router.get ('/users/:username', (req,res) => {
