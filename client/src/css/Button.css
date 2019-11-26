@@ -1,0 +1,27 @@
+.nav-button {
+    background-color: #b5e0ff;
+    color: rgb(1,123,255);
+    height: 40px;
+    width: 100%;
+    border-color: #b5e0ff;
+}
+
+hr {
+    margin-bottom: -2px;
+}
+
+.nav-button:hover, .profile-button:hover {
+    color: #0056b3;
+}
+
+.profile-button {
+   text-align: right;
+}
+
+.clear {
+    margin-left: 2px;
+}
+
+.signinbut {
+    margin-top: 10px;
+}

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Regions /> renders 6 regions 1`] = `
+<div
+  className="col-9 countries"
+>
+  <h1>
+    There is the list of all regions
+  </h1>
+</div>
+`;

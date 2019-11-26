@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`correct render of profile 1`] = `
+<div
+  className="col-9"
+>
+  <h3>
+    My profile
+  </h3>
+  <div
+    className="profile-button"
+  >
+    <button
+      className="btn btn-outline-primary signinbut"
+      onClick={[Function]}
+    >
+      Delete profile 
+    </button>
+  </div>
+  <p>
+    Name: 
+    <a
+      aria-current={null}
+      href="/changename"
+      onClick={[Function]}
+    >
+       
+      john13
+    </a>
+     
+  </p>
+  <p>
+    My travels: 
+  </p>
+  <p>
+    1
+    <a
+      aria-current={null}
+      href="/countries/Japan"
+      onClick={[Function]}
+    >
+       
+      Japan
+    </a>
+  </p>
+  <p>
+    2
+    <a
+      aria-current={null}
+      href="/countries/Italy"
+      onClick={[Function]}
+    >
+       
+      Italy
+    </a>
+  </p>
+  <p>
+    3
+    <a
+      aria-current={null}
+      href="/countries/Sweeden"
+      onClick={[Function]}
+    >
+       
+      Sweeden
+    </a>
+  </p>
+</div>
+`;

@@ -1,0 +1,53 @@
+body {
+  background-color: #e3f2fd;
+  
+}
+header {
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Monoton', cursive;
+  background-color: #b5e0ff;;
+  color: rgb(1,123,255);
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  background-color: #b5e0ff;;
+}
+
+nav div {
+  text-align: center;
+}
+
+.flag {
+    background-size: 90%; 
+    background-repeat: no-repeat;
+}
+
+.globus {
+  width: 50px;
+  height: 47px;
+  background-size: 90%; 
+  background-repeat: no-repeat;
+  float: right;
+  margin-top:-46px;
+  margin-bottom: 0;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  height: 100%;
+}
+
+div.row {
+  width: 100%;
+}
+
+input {
+  border-radius: 4px;
+}
